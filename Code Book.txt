@@ -1,0 +1,91 @@
+Code Book for data file tidy.data.txt
+ 
+ [1] subject_id : unique identifier of an subject            
+ [2] activity_id :  unique identifier of an activity                                           
+ [3] activity_label : Type of activities each person performed in the experiment (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)                                    
+ [4] Time_DomainBodyAccelerometer_Mean_X : Average of tBodyAcc-mean()-X                     
+ [5] Time_DomainBodyAccelerometer_Mean_Y : Average of tBodyAcc-mean()-Y              
+ [6] Time_DomainBodyAccelerometer_Mean_Z : Average of tBodyAcc-mean()-Z                        
+ [7] Time_DomainGravityAccelerometer_Mean_X : Average of tGravityAcc-mean()-X              
+ [8] Time_DomainGravityAccelerometer_Mean_Y : Average of tGravityAcc-mean()-Y
+ [9] Time_DomainGravityAccelerometer_Mean_Z : Average of tGravityAcc-mean()-Z
+[10] Time_DomainBodyAccelerometerJerk_Mean_X : Average of tBodyAccJerk-mean()-X 
+[11] Time_DomainBodyAccelerometerJerk_Mean_Y : Average of tBodyAccJerk-mean()-Y
+[12] Time_DomainBodyAccelerometerJerk_Mean_Z : Average of tBodyAccJerk-mean()-Z
+[13] Time_DomainBodyGyroscope_Mean_X : Average of tBodyGyro-mean()-X                          
+[14] Time_DomainBodyGyroscope_Mean_Y : Average of tBodyGyro-mean()-Y         
+[15] Time_DomainBodyGyroscope_Mean_Z : Average of tBodyGyro-mean()-Z         
+[16] Time_DomainBodyGyroscopeJerk_Mean_X : Average of tBodyGyroJerk-mean()-X             
+[17] Time_DomainBodyGyroscopeJerk_Mean_Y : Average of tBodyGyroJerk-mean()-Y 
+[18] Time_DomainBodyGyroscopeJerk_Mean_Z : Average of tBodyGyroJerk-mean()-Z 
+[19] Time_DomainBodyAccelerometerMagnitude_Mean : Average of tBodyAccMag-mean()       
+[20] Time_DomainGravityAccelerometerMagnitude_Mean : Average of tGravityAccMag-mean()        
+[21] Time_DomainBodyAccelerometerJerkMagnitude_Mean : Average of tBodyAccJerkMag-mean()
+[22] Time_DomainBodyGyroscopeMagnitude_Mean : Average of tBodyGyroMag-mean() 
+[23] Time_DomainBodyGyroscopeJerkMagnitude_Mean : Average of tBodyGyroJerkMag-mean() 
+[24] FFT_DomainBodyAccelerometer_Mean_X : Average of fBodyAcc-mean()-X  
+[25] FFT_DomainBodyAccelerometer_Mean_Y : Average of fBodyAcc-mean()-Y       
+[26] FFT_DomainBodyAccelerometer_Mean_Z : Average of fBodyAcc-mean()-Z       
+[27] FFT_DomainBodyAccelerometer_MeanFrequency_X : Average of fBodyAcc-meanFreq()-X         
+[28] FFT_DomainBodyAccelerometer_MeanFrequency_Y : Average of fBodyAcc-meanFreq()-Y
+[29] FFT_DomainBodyAccelerometer_MeanFrequency_Z : Average of fBodyAcc-meanFreq()-Z
+[30] FFT_DomainBodyAccelerometerJerk_Mean_X : Average of fBodyAccJerk-mean()-X
+[31] FFT_DomainBodyAccelerometerJerk_Mean_Y : Average of fBodyAccJerk-mean()-Y
+[32] FFT_DomainBodyAccelerometerJerk_Mean_Z : Average of fBodyAccJerk-mean()-Z
+[33] FFT_DomainBodyAccelerometerJerk_MeanFrequency_X : Average of fBodyAccJerk-meanFreq()-X       
+[34] FFT_DomainBodyAccelerometerJerk_MeanFrequency_Y : Average of fBodyAccJerk-meanFreq()-Y
+[35] FFT_DomainBodyAccelerometerJerk_MeanFrequency_Z : Average of fBodyAccJerk-meanFreq()-Z
+[36] FFT_DomainBodyGyroscope_Mean_X : Average of fBodyGyro-mean()-X
+[37] FFT_DomainBodyGyroscope_Mean_Y : Average of fBodyGyro-mean()-Y          
+[38] FFT_DomainBodyGyroscope_Mean_Z : Average of fBodyGyro-mean()-Z          
+[39] FFT_DomainBodyGyroscope_MeanFrequency_X : Average of fBodyGyro-meanFreq()-X      
+[40] FFT_DomainBodyGyroscope_MeanFrequency_Y : Average of fBodyGyro-meanFreq()-Y
+[41] FFT_DomainBodyGyroscope_MeanFrequency_Z : Average of fBodyGyro-meanFreq()-Z
+[42] FFT_DomainBodyAccelerometerMagnitude_Mean : Average of fBodyAccMag-mean()
+[43] FFT_DomainBodyAccelerometerMagnitude_MeanFrequency : Average of fBodyAccMag-meanFreq()
+[44] FFT_DomainBodyAccelerometerJerkMagnitude_Mean : Average of fBodyBodyAccJerkMag-mean()         
+[45] FFT_DomainBodyAccelerometerJerkMagnitude_MeanFrequency : Average of fBodyBodyAccJerkMag-meanFreq()
+[46] FFT_DomainBodyGyroscopeMagnitude_Mean : Average of fBodyGyroMag-mean()                   
+[47] FFT_DomainBodyGyroscopeMagnitude_MeanFrequency : Average of fBodyGyroMag-meanFreq()    
+[48] FFT_DomainBodyGyroscopeJerkMagnitude_Mean : Average of fBodyGyroJerkMag-mean()                
+[49] FFT_DomainBodyGyroscopeJerkMagnitude_MeanFrequency : Average of fBodyGyroJerkMag-meanFreq()
+[50] angletBodyAccMean_gravity : Average of angle(tBodyAccMean,gravity)
+[51] angletBodyAccJerkMean_gravityMean: Average of angletBodyAccJerkMean_gravityMean                  
+[52] angletBodyGyroscopeMean_gravityMean: Average of angletBodyGyroMean_gravityMean                   
+[53] angletBodyGyroscopeJerkMean_gravityMean : Average of angletBodyGyroJerkMean_gravityMean                
+[54] angleX_gravityMean : Average of angleX_gravityMean                            
+[55] angleY_gravityMean : Average of angleY_gravityMean              
+[56] angleZ_gravityMean" : Average of angleZ_gravityMean"
+[57] Time_DomainBodyAccelerometer_StandardDeviation_X : Average of tBodyAcc-std()-X
+[58] Time_DomainBodyAccelerometer_StandardDeviation_Y : Average of tBodyAcc-std()-Y
+[59] Time_DomainBodyAccelerometer_StandardDeviation_Z : Average of tBodyAcc-std()-Z        
+[60] Time_DomainGravityAccelerometer_StandardDeviation_X : Average of tGravityAcc-std()-X 
+[61] Time_DomainGravityAccelerometer_StandardDeviation_Y : Average of tGravityAcc-std()-Y
+[62] Time_DomainGravityAccelerometer_StandardDeviation_Z : Average of tGravityAcc-std()-Z
+[63] Time_DomainBodyAccelerometerJerk_StandardDeviation_X : Average of tBodyAccJerk-std()-X
+[64] Time_DomainBodyAccelerometerJerk_StandardDeviation_Y : Average of tBodyAccJerk-std()-Y
+[65] Time_DomainBodyAccelerometerJerk_StandardDeviation_Z : Average of tBodyAccJerk-std()-Z
+[66] Time_DomainBodyGyroscope_StandardDeviation_X : Average of tBodyGyro-std()-X
+[67] Time_DomainBodyGyroscope_StandardDeviation_Y : Average of tBodyGyro-std()-Y
+[68] Time_DomainBodyGyroscope_StandardDeviation_Z : Average of tBodyGyro-std()-Z
+[69] Time_DomainBodyGyroscopeJerk_StandardDeviation_X : Average of tBodyGyroJerk-std()-X
+[70] Time_DomainBodyGyroscopeJerk_StandardDeviation_Y : Average of tBodyGyroJerk-std()-Y
+[71] Time_DomainBodyGyroscopeJerk_StandardDeviation_Z : Average of tBodyGyroJerk-std()-Z
+[72] Time_DomainBodyAccelerometerMagnitude_StandardDeviation : Average of tBodyAccMag-std()
+[73] Time_DomainGravityAccelerometerMagnitude_StandardDeviation : Average of tGravityAccMag-std()
+[74] Time_DomainBodyAccelerometerJerkMagnitude_StandardDeviation : Average of tBodyAccJerkMag-std()
+[75] Time_DomainBodyGyroscopeMagnitude_StandardDeviation : Average of tBodyGyroMag-std()
+[76] Time_DomainBodyGyroscopeJerkMagnitude_StandardDeviation : Average of tBodyGyroJerkMag-std()
+[77] FFT_DomainBodyAccelerometer_StandardDeviation_X : Average of fBodyAcc-std()-X
+[78] FFT_DomainBodyAccelerometer_StandardDeviation_Y : Average of fBodyAcc-std()-Y
+[78] FFT_DomainBodyAccelerometer_StandardDeviation_Z : Average of fBodyAcc-std()-Z
+[80] FFT_DomainBodyAccelerometerJerk_StandardDeviation_X : Average of fBodyAccJerk-std()-X
+[81] FFT_DomainBodyAccelerometerJerk_StandardDeviation_Y : Average of fBodyAccJerk-std()-Y
+[82] FFT_DomainBodyAccelerometerJerk_StandardDeviation_Z : Average of fBodyAccJerk-std()-Z
+[83] FFT_DomainBodyGyroscope_StandardDeviation_X : Average of fBodyGyro-std()-X
+[84] FFT_DomainBodyGyroscope_StandardDeviation_Y : Average of fBodyGyro-std()-Y  
+[85] FFT_DomainBodyGyroscope_StandardDeviation_Z : Average of fBodyGyro-std()-Z
+[86] FFT_DomainBodyAccelerometerMagnitude_StandardDeviation : Average of fBodyAccMag-std()
+[87] FFT_DomainBodyAccelerometerJerkMagnitude_StandardDeviation : Average of fBodyBodyAccJerkMag-std()
+[88] FFT_DomainBodyGyroscopeMagnitude_StandardDeviation : Average of fBodyGyroMag-std()   
+[89] FFT_DomainBodyGyroscopeJerkMagnitude_StandardDeviation : Average of fBodyGyroJerkMag-std()
